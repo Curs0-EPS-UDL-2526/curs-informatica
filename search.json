@@ -56,6 +56,55 @@
     "text": "Laboratori 2: Resultats\n\nUna màquina virtual amb Debian 12 comparint recursos amb el vostre ordinador físic."
   },
   {
+    "objectID": "laboratori/lab03.html",
+    "href": "laboratori/lab03.html",
+    "title": "Laboratori 3: Configurant el meu entorn de desenvolupament amb VSCode",
+    "section": "",
+    "text": "Configurar el Visual Studio Code (VSCode) per connectar-se a la màquina virtual mitjançant SSH."
+  },
+  {
+    "objectID": "laboratori/lab03.html#objectius",
+    "href": "laboratori/lab03.html#objectius",
+    "title": "Laboratori 3: Configurant el meu entorn de desenvolupament amb VSCode",
+    "section": "",
+    "text": "Configurar el Visual Studio Code (VSCode) per connectar-se a la màquina virtual mitjançant SSH."
+  },
+  {
+    "objectID": "laboratori/lab03.html#requisits-previs",
+    "href": "laboratori/lab03.html#requisits-previs",
+    "title": "Laboratori 3: Configurant el meu entorn de desenvolupament amb VSCode",
+    "section": "Requisits previs",
+    "text": "Requisits previs\n\nMàquina virtual en funcionament (vegeu Laboratori 2).\nVisual Studio Code (VSCode) instal·lat al vostre ordinador. Podeu descarregar-lo des de https://code.visualstudio.com/.\nObtenir la IP de la màquina virtual. Per fer-ho, podeu:\n\nConsultar la informació a VMWare: \nO bé, iniciar sessió a la màquina virtual i executar la comanda ip a per obtenir la IP: \n\n\n\n\n\n\n\nNota\n\n\n\nEn els dos casos, la IP de la màquina virtual és 172.16.10.223."
+  },
+  {
+    "objectID": "laboratori/lab03.html#configurant-vscode-per-connectar-se-a-la-màquina-virtual",
+    "href": "laboratori/lab03.html#configurant-vscode-per-connectar-se-a-la-màquina-virtual",
+    "title": "Laboratori 3: Configurant el meu entorn de desenvolupament amb VSCode",
+    "section": "Configurant VSCode per connectar-se a la màquina virtual",
+    "text": "Configurant VSCode per connectar-se a la màquina virtual\nUn cop hagueu instal·lat el vostre entorn de desenvolupament (IDE), podeu afegir les següents extensions utilitzant el marketplace de VSCode: remote-ssh. Primer, feu clic a Marketplace (1), després cerqueu remote-ssh i, finalment, feu clic a (3) per instal·lar la extensió. Consulteu la imatge:\n\nUn cop hagueu instal·lat la extensió, ja podeu connectar-vos a la màquina virtual. Per fer-ho, feu clic a la icona de la part inferior esquerra (1) i seleccioneu l’opció Remote-SSH: Connect to Host… (2). Consulteu la imatge:\n\nAra apareixerà una finestra on podreu escriure la connexió SSH. També veureu l’opció Add a New SSH Host. Feu clic en aquesta opció i introduïu la comanda SSH per connectar-vos a la màquina virtual. Consulteu la imatge:\n\nSeleccioneu la primera opció del menú desplegable amb la ruta del vostre usuari i feu clic a Add. Consulteu la imatge:\n\ni comproveu que l’amfitrió s’ha afegit correctament.\n\nAra feu clic a Open Config i observeu que s’ha creat una nova entrada amb el vostre usuari i la IP de la màquina virtual:\nHost 172.16.10.223\n  HostName 172.16.10.223\n  User jordi\nUs recomano que modifiqueu el fitxer de configuració perquè sigui més fàcil de recordar. Per exemple, podeu canviar el nom de l’amfitrió per vm-curs0-debian12 :\nHost vm-curs0-debian12\n  HostName 172.16.10.202\n  User jordi\nUn cop hagueu modificat el fitxer de configuració, guardem-lo i tanquem-lo. Ara ja podeu connectar-vos a la màquina virtual vm-curs0-debian12. Per fer-ho:\n\nFeu clic a la icona de la part inferior esquerra.\nSeleccioneu Remote-SSH: Connect to Host….\nSeleccioneu vm-curs0-debian12:\n\n\nUs apareixerà una finestra emergent que us demanarà si voleu confiar en l’amfitrió. Feu clic a Continue. \nUs apareixerà una altra finestra emergent que us demanarà la contrasenya de l’usuari jordi. \n\n\n\n\n\n\n\nNota\n\n\n\nLa primera vegada que us connecteu a la màquina virtual, VSCode instal·larà el servidor remot a la màquina virtual. Això pot trigar uns minuts.\n\n\nUn cop us hàgiu connectat, veureu que la finestra de VSCode ha canviat i que ara esteu treballant a la màquina virtual. Podeu comprovar-ho a la part inferior esquerra on apareix el nom de l’amfitrió vm-curs0-debian12.\n\nPer comprovar que tot funciona correctament, podeu obrir una terminal integrada a VSCode i executar la comanda uname -a per veure la informació del sistema i comprovar que esteu a la màquina virtual."
+  },
+  {
+    "objectID": "laboratori/lab03.html#exercicis",
+    "href": "laboratori/lab03.html#exercicis",
+    "title": "Laboratori 3: Configurant el meu entorn de desenvolupament amb VSCode",
+    "section": "Exercicis",
+    "text": "Exercicis\n\nCreeu carpetes i fitxers a la màquina virtual utilitzant la terminal integrada de VSCode.\nEditeu fitxers utilitzant l’editor de VSCode.\nPodeu pujar i baixar fitxers entre la màquina local i la màquina virtual utilitzant drag and drop."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Curs zero d’Informàtica",
+    "section": "",
+    "text": "El curs s’organitza en sessions diàries de 2 hores. L’enfoc és eminentment pràctic. En cadascuna de les sessions s’abordarà un dels temes del programa, presentant primer, i breument, els coneixements teòrics bàsics, per abordar tot seguit el plantejament i resolució de problemes a l’aula. L’estudiantat ha de portar el seu propi portàtil."
+  },
+  {
+    "objectID": "index.html#planificació",
+    "href": "index.html#planificació",
+    "title": "Curs zero d’Informàtica",
+    "section": "Planificació",
+    "text": "Planificació\n\n\n\nSessió\nData\nTema\nDiapositives\nLaboratori\n\n\n\n\n1\n04/09/2024\nIntroducció i entorns de programació\n\n\n\n\n2\n05/09/2024\nVirtualització\n📖\n📄 📄\n\n\n3\n08/09/2024\nIntroducció al control de versions"
+  },
+  {
     "objectID": "laboratori/lab02.html",
     "href": "laboratori/lab02.html",
     "title": "Laboratori 2: Instal·lació de Debian 12",
@@ -103,54 +152,5 @@
     "title": "Laboratori 2: Instal·lació de Debian 12",
     "section": "Exercicis adicionals",
     "text": "Exercicis adicionals\n\nInstal·leu altres màquines virtuals amb altres sistemes operatius en mode gràfic com:\n\nUbuntu 24.04 LTS\nFedora 39"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Curs zero d’Informàtica",
-    "section": "",
-    "text": "El curs s’organitza en sessions diàries de 2 hores. L’enfoc és eminentment pràctic. En cadascuna de les sessions s’abordarà un dels temes del programa, presentant primer, i breument, els coneixements teòrics bàsics, per abordar tot seguit el plantejament i resolució de problemes a l’aula. L’estudiantat ha de portar el seu propi portàtil."
-  },
-  {
-    "objectID": "index.html#planificació",
-    "href": "index.html#planificació",
-    "title": "Curs zero d’Informàtica",
-    "section": "Planificació",
-    "text": "Planificació\n\n\n\nSessió\nData\nTema\nDiapositives\nLaboratori\n\n\n\n\n1\n04/09/2024\nIntroducció i entorns de programació\n\n\n\n\n2\n05/09/2024\nVirtualització\n📖\n📄 📄\n\n\n3\n08/09/2024\nIntroducció al control de versions"
-  },
-  {
-    "objectID": "laboratori/lab03.html",
-    "href": "laboratori/lab03.html",
-    "title": "Laboratori 3: Configurant el meu entorn de desenvolupament amb VSCode",
-    "section": "",
-    "text": "Configurar el Visual Studio Code (VSCode) per connectar-se a la màquina virtual mitjançant SSH."
-  },
-  {
-    "objectID": "laboratori/lab03.html#objectius",
-    "href": "laboratori/lab03.html#objectius",
-    "title": "Laboratori 3: Configurant el meu entorn de desenvolupament amb VSCode",
-    "section": "",
-    "text": "Configurar el Visual Studio Code (VSCode) per connectar-se a la màquina virtual mitjançant SSH."
-  },
-  {
-    "objectID": "laboratori/lab03.html#requisits-previs",
-    "href": "laboratori/lab03.html#requisits-previs",
-    "title": "Laboratori 3: Configurant el meu entorn de desenvolupament amb VSCode",
-    "section": "Requisits previs",
-    "text": "Requisits previs\n\nMàquina virtual en funcionament (vegeu Laboratori 2).\nVisual Studio Code (VSCode) instal·lat al vostre ordinador. Podeu descarregar-lo des de https://code.visualstudio.com/.\nObtenir la IP de la màquina virtual. Per fer-ho, podeu:\n\nConsultar la informació a VMWare: \nO bé, iniciar sessió a la màquina virtual i executar la comanda ip a per obtenir la IP: \n\n\n\n\n\n\n\nNota\n\n\n\nEn els dos casos, la IP de la màquina virtual és 172.16.10.223."
-  },
-  {
-    "objectID": "laboratori/lab03.html#configurant-vscode-per-connectar-se-a-la-màquina-virtual",
-    "href": "laboratori/lab03.html#configurant-vscode-per-connectar-se-a-la-màquina-virtual",
-    "title": "Laboratori 3: Configurant el meu entorn de desenvolupament amb VSCode",
-    "section": "Configurant VSCode per connectar-se a la màquina virtual",
-    "text": "Configurant VSCode per connectar-se a la màquina virtual\nUn cop hagueu instal·lat el vostre entorn de desenvolupament (IDE), podeu afegir les següents extensions utilitzant el marketplace de VSCode: remote-ssh. Primer, feu clic a Marketplace (1), després cerqueu remote-ssh i, finalment, feu clic a (3) per instal·lar la extensió. Consulteu la imatge:\n\nUn cop hagueu instal·lat la extensió, ja podeu connectar-vos a la màquina virtual. Per fer-ho, feu clic a la icona de la part inferior esquerra (1) i seleccioneu l’opció Remote-SSH: Connect to Host… (2). Consulteu la imatge:\n\nAra apareixerà una finestra on podreu escriure la connexió SSH. També veureu l’opció Add a New SSH Host. Feu clic en aquesta opció i introduïu la comanda SSH per connectar-vos a la màquina virtual. Consulteu la imatge:\n\nSeleccioneu la primera opció del menú desplegable amb la ruta del vostre usuari i feu clic a Add. Consulteu la imatge:\n\ni comproveu que l’amfitrió s’ha afegit correctament.\n\nAra feu clic a Open Config i observeu que s’ha creat una nova entrada amb el vostre usuari i la IP de la màquina virtual:\nHost 172.16.10.223\n  HostName 172.16.10.223\n  User jordi\nUs recomano que modifiqueu el fitxer de configuració perquè sigui més fàcil de recordar. Per exemple, podeu canviar el nom de l’amfitrió per vm-curs0-debian12 :\nHost vm-curs0-debian12\n  HostName 172.16.10.202\n  User jordi\nUn cop hagueu modificat el fitxer de configuració, guardem-lo i tanquem-lo. Ara ja podeu connectar-vos a la màquina virtual vm-curs0-debian12. Per fer-ho:\n\nFeu clic a la icona de la part inferior esquerra.\nSeleccioneu Remote-SSH: Connect to Host….\nSeleccioneu vm-curs0-debian12:\n\n\nUs apareixerà una finestra emergent que us demanarà si voleu confiar en l’amfitrió. Feu clic a Continue. \nUs apareixerà una altra finestra emergent que us demanarà la contrasenya de l’usuari jordi. \n\n\n\n\n\n\n\nNota\n\n\n\nLa primera vegada que us connecteu a la màquina virtual, VSCode instal·larà el servidor remot a la màquina virtual. Això pot trigar uns minuts.\n\n\nUn cop us hàgiu connectat, veureu que la finestra de VSCode ha canviat i que ara esteu treballant a la màquina virtual. Podeu comprovar-ho a la part inferior esquerra on apareix el nom de l’amfitrió vm-curs0-debian12.\n\nPer comprovar que tot funciona correctament, podeu obrir una terminal integrada a VSCode i executar la comanda uname -a per veure la informació del sistema i comprovar que esteu a la màquina virtual."
-  },
-  {
-    "objectID": "laboratori/lab03.html#exercicis",
-    "href": "laboratori/lab03.html#exercicis",
-    "title": "Laboratori 3: Configurant el meu entorn de desenvolupament amb VSCode",
-    "section": "Exercicis",
-    "text": "Exercicis\n\nCreeu carpetes i fitxers a la màquina virtual utilitzant la terminal integrada de VSCode.\nEditeu fitxers utilitzant l’editor de VSCode.\nPodeu pujar i baixar fitxers entre la màquina local i la màquina virtual utilitzant drag and drop."
   }
 ]
