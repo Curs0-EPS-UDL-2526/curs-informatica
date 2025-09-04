@@ -1,0 +1,156 @@
+[
+  {
+    "objectID": "teoria/02-virtualitzation.html#una-analogia-amb-el-bus-escolar",
+    "href": "teoria/02-virtualitzation.html#una-analogia-amb-el-bus-escolar",
+    "title": "Virtualització",
+    "section": "🚗 Una analogia amb el bus escolar",
+    "text": "🚗 Una analogia amb el bus escolar\nImagineu un món abans sense bus escolar:\n\nPer portar cada estudiant (una aplicació o servei) a l’escola, cada família utilitza el seu propi cotxe (un servidor físic).\nCada cotxe malgasta molts recursos: un motor (processador), benzina (energia), rodes (disc dur) i un espai d’aparcament (espai físic), tot per a un sol passatger.\n\n\nAixò és extremadament ineficient."
+  },
+  {
+    "objectID": "teoria/02-virtualitzation.html#larribada-del-bus-escolar-la-virtualització",
+    "href": "teoria/02-virtualitzation.html#larribada-del-bus-escolar-la-virtualització",
+    "title": "Virtualització",
+    "section": "🚌 L’arribada del Bus Escolar (La Virtualització)",
+    "text": "🚌 L’arribada del Bus Escolar (La Virtualització)\n\nEn lloc de que cada estudiant vingui amb el seu cotxe, tots poden agafar un bus escolar (un únic servidor físic amb virtualització).\nEl bus és un vehicle molt més gran i potent (un únic servidor físic). En lloc de N cotxes, només en necessitem un.\nEl bus comparteix els seus recursos (motor, benzina, rodes, espai d’aparcament) entre tots els estudiants (aplicacions o serveis), fent un ús molt més eficient dels recursos."
+  },
+  {
+    "objectID": "teoria/02-virtualitzation.html#les-cabines-del-bus-les-màquines-virtuals",
+    "href": "teoria/02-virtualitzation.html#les-cabines-del-bus-les-màquines-virtuals",
+    "title": "Virtualització",
+    "section": "👩‍🎓 Les Cabines del Bus (Les Màquines Virtuals)",
+    "text": "👩‍🎓 Les Cabines del Bus (Les Màquines Virtuals)\nImagineu un autobús futurista:\n\nCada estudiant té el seu propi seient, que és com una petita cabina aïllada (una màquina virtual). Aquesta cabina té la seva pròpia pantalla, controls i espai personal, totalment independent de les altres.\nSi un estudiant mira una pel·lícula en veu alta, només afecta la seva cabina, no la resta del bus. Les accions d’un estudiant no interfereixen amb les dels altres."
+  },
+  {
+    "objectID": "teoria/02-virtualitzation.html#lhipervisor-el-conductor-del-bus",
+    "href": "teoria/02-virtualitzation.html#lhipervisor-el-conductor-del-bus",
+    "title": "Virtualització",
+    "section": "👩‍✈️ L’hipervisor: El Conductor del Bus",
+    "text": "👩‍✈️ L’hipervisor: El Conductor del Bus\n\nEll és qui s’assegura que cada estudiant tingui el seu seient (recursos), arribi a la seva destinació (funcioni) i que no hi hagi problemes entre ells.\nGestiona els seus recursos de manera que totes les cabines funcionin sense problemes, fins i tot si alguns estudiants necessiten més atenció o recursos en certs moments."
+  },
+  {
+    "objectID": "teoria/02-virtualitzation.html#esquema-sense-virtualització",
+    "href": "teoria/02-virtualitzation.html#esquema-sense-virtualització",
+    "title": "Virtualització",
+    "section": "Esquema sense virtualització",
+    "text": "Esquema sense virtualització"
+  },
+  {
+    "objectID": "teoria/02-virtualitzation.html#esquema-amb-virtualització",
+    "href": "teoria/02-virtualitzation.html#esquema-amb-virtualització",
+    "title": "Virtualització",
+    "section": "Esquema amb virtualització",
+    "text": "Esquema amb virtualització"
+  },
+  {
+    "objectID": "teoria/02-virtualitzation.html#laboratori-2-tasques",
+    "href": "teoria/02-virtualitzation.html#laboratori-2-tasques",
+    "title": "Virtualització",
+    "section": "Laboratori 2: Tasques",
+    "text": "Laboratori 2: Tasques\n\nInstal·lar un hypervisor: VMWare Workstation Player o VMWare Fusion.\nDesplegar una màquina virtual amb Linux dins de l’hypervisor.\n\n\n📄 Laboratori 2: Instal·lació de Debian 12"
+  },
+  {
+    "objectID": "teoria/02-virtualitzation.html#laboratori-2-resultats",
+    "href": "teoria/02-virtualitzation.html#laboratori-2-resultats",
+    "title": "Virtualització",
+    "section": "Laboratori 2: Resultats",
+    "text": "Laboratori 2: Resultats\n\nUna màquina virtual amb Debian 12 comparint recursos amb el vostre ordinador físic."
+  },
+  {
+    "objectID": "laboratori/lab02.html",
+    "href": "laboratori/lab02.html",
+    "title": "Laboratori 2: Instal·lació de Debian 12",
+    "section": "",
+    "text": "Instal·lar el programari de virtualització VMWare Workstation Player o VMWare Fusion.\nInstal·lar una màquina virtual basada en un sistema operatiu Linux."
+  },
+  {
+    "objectID": "laboratori/lab02.html#objectius",
+    "href": "laboratori/lab02.html#objectius",
+    "title": "Laboratori 2: Instal·lació de Debian 12",
+    "section": "",
+    "text": "Instal·lar el programari de virtualització VMWare Workstation Player o VMWare Fusion.\nInstal·lar una màquina virtual basada en un sistema operatiu Linux."
+  },
+  {
+    "objectID": "laboratori/lab02.html#installació-del-hypervisor-vmware-workstation-player-o-vmware-fusion",
+    "href": "laboratori/lab02.html#installació-del-hypervisor-vmware-workstation-player-o-vmware-fusion",
+    "title": "Laboratori 2: Instal·lació de Debian 12",
+    "section": "Instal·lació del Hypervisor (VMWare Workstation Player o VMWare Fusion)",
+    "text": "Instal·lació del Hypervisor (VMWare Workstation Player o VMWare Fusion)\nAquestes instruccions et guiaran a través del procés per crear un compte a Broadcom i descarregar una de les versions gratuïtes de VMware Workstation Player (per a Windows) o VMware Fusion (per a macOS).\n\nRegistra’t per a un compte gratuït a Broadcom: Per accedir a les descàrregues de programari de VMware, necessites un compte a la plataforma de Broadcom.\n\nDirigeix-te a la pàgina de registre de Broadcom: https://profile.broadcom.com/web/registration\nIntrodueix la teva adreça de correu electrònic, realitza la verificació de seguretat i fes clic a Next \nIntrodueix el codi de verificació que has rebut al teu correu electrònic. Fes clic a Verify per continuar. \nCompleta el formulari de registre amb la teva informació personal i crea una contrasenya. Fes clic a Create Account per completar el registre. \nUn cop completat el registre, visualitzaràs un missatge de registre correcte. I us demanarà si voleu completar el perfil. Seleccioneu, I will do it later per continuar. \n\nAccedeix a les descàrregues gratuïtes de VMware:\n\nVes a la pàgina de login de Broadcom: https://profile.broadcom.com/web/login\nInicia sessió amb el teu correu electrònic i la contrasenya que has creat.\nVes directament a la secció de descàrregues a (https://support.broadcom.com/group/ecx/free-downloads). \nSelecciona VMware Workstation Player o VMware Fusion segons el teu sistema operatiu (Windows o macOS). En el meu cas, utiltizo Mac, així que seleccionaré VMware Fusion.\nSeleccioneu la versió que voleu descarregar. En aquest cas, podem seleccionar la versió més recent. \nEn la pàgina següent:\n\nFes clic a l’enllaç de termes i condicions per que s’activi el checkbox de l’acceptació.\nAcceptar els termes i condicions.\nFes clic a descàrrega per començar a descarregar el fitxer d’instal·lació. \n\n\nInstal·la VMware Workstation Player o VMware Fusion."
+  },
+  {
+    "objectID": "laboratori/lab02.html#descarrega-de-la-imatge-iso-de-debian-12.5.0",
+    "href": "laboratori/lab02.html#descarrega-de-la-imatge-iso-de-debian-12.5.0",
+    "title": "Laboratori 2: Instal·lació de Debian 12",
+    "section": "Descarrega de la imatge ISO de Debian 12.5.0",
+    "text": "Descarrega de la imatge ISO de Debian 12.5.0\n\nVes a la pàgina de descàrrega de Debian 12.5.0: https://get.debian.org/images/archive/12.5.0/\nSelecciona la imatge ISO per a la teva arquitectura (amd64 o arm64). La majoria dels vostres ordinadors tenen processadors amd64 (Intel o AMD). Els processadors ARM són més comuns en dispositius mòbils i en els nous Mac amb xips M.\nSeleccioneu la carpeta iso-cd.\nSeleccioneu el fitxer debian-12.5.0-x-netinst.iso. On x és l’arquitectura del vostre sistema (amd64 o arm64).\n\n💡 Nota:\nLa imatge netinst és una imatge d’instal·lació mínima que descarrega els paquets necessaris durant la instal·lació. Això permet personalitzar la instal·lació i seleccionar els paquets que voleu instal·lar."
+  },
+  {
+    "objectID": "laboratori/lab02.html#configuració-de-la-màquina-virtual-amb-vmware",
+    "href": "laboratori/lab02.html#configuració-de-la-màquina-virtual-amb-vmware",
+    "title": "Laboratori 2: Instal·lació de Debian 12",
+    "section": "Configuració de la màquina virtual amb VMWare",
+    "text": "Configuració de la màquina virtual amb VMWare\n\nSelecciona l’opció Create a New Virtual Machine a VMWare Workstation Player o VMWare Fusion.\nSelecciona Install from disc or image. \nSelecciona la imatge ISO de Debian 12. \nConfigura els recursos de la màquina virtual. \nAnomena la màquina virtual i selecciona la ubicació on es guardarà. Per exemple, podeu posar el nom vm-curs0-debian12 i seleccionar una ubicació al vostre directori d’usuari."
+  },
+  {
+    "objectID": "laboratori/lab02.html#installació-del-sistema-operatiu",
+    "href": "laboratori/lab02.html#installació-del-sistema-operatiu",
+    "title": "Laboratori 2: Instal·lació de Debian 12",
+    "section": "Instal·lació del sistema operatiu",
+    "text": "Instal·lació del sistema operatiu\n\nUn cop iniciada la màquina virtual, podeu seleccionar la opció Install o bé Graphical install. \nEn aquest tutoriral, seleccionarem la opció Graphical install per a una instal·lació més amigable. La principal diferència entre les dues opcions és l’entorn gràfic.\nSelecciona l’idioma d’instal·lació. \nPodeu seleccionar l’idioma que vulgueu per a la instal·lació. En aquest cas, seleccionarem l’idioma Català.\nSelecciona la ubicació geogràfica. \nEn aquest cas, seleccionarem la ubicació Espanya.\nSelecciona la disposició del teclat. \nEn aquest cas, seleccionarem la disposició de teclat Català. Això ens asegurarà un mapeig correcte del teclat.\nEspereu que el sistema carregui els components necessaris. \nConfigura la xarxa.\n\nEl primer pas és configurar el nom d’amfitrió o hostname. Aquest nom permet identificar de forma única el vostre sistema. Podeu deixar el nom per defecte o canviar-lo al vostre gust.\n\n\nEn aquest cas, hem canviat el nom d’amfitrió a vm-curs0-debian12, però podeu posar el nom que vulgeu com debianlab, etc.\n\nEl segon pas és configurar el domini de la xarxa. Aquest pas el podeu deixar en blanc si no teniu un domini específic. O bé, podem utilitzar .local com a domini local per identicar que el servidor pertany a la xarxa local.\n\n\nConfigura l’usuari administrador.\n\nEn aquest punt, heu de tenir en compte que si no poseu cap contrasenya, es crearà l’usuari normal amb permisos de sudo i això us permetra executar comandes amb privilegis d’administrador.\nSi poseu una contrasenya, aquesta serà la contrasenya de l’usuari root i no es crearà un usuari normal amb permisos de sudo. I tampoc s’instal·larà el paquet sudo.\n\n⚠️ Compte\nCom utilitzarem les màquines virtuals com a laboratoris de pràctiques, no cal que poseu una contrasenya molt segura. Podeu utilitzar una com a 1234. Però, recordeu que en un entorn real, la seguretat és molt important i cal utilitzar contrasenyes segures.\n\nConfigura un usuari normal.\n\nNom complet: Podeu posar el vostre nom complet o el que vulgueu.\n\n\n\nNom d’usuari: Podeu posar el vostre nom d’usuari o el que vulgueu.\n\n\n\nContrasenya: El mateix que per l’usuari root.\n\n\nConfigura la zona horària.\n\nEn aquest cas, seleccionarem la zona horària de Madrid.\nConfigura el disc dur.\n\nParticionament: En aquest curs, el tema del particionament no és molt important. Per tant, podeu fer servir la configuració per defecte més senzilla (Guiat - utilitzar el disc sencer). Aquesta configuració crearà les particions necessàries per a l’instal·lació del sistema.\n\n\n\nSelecciona el disc on instal·lar el sistema. En el meu cas, només tinc un disc virtual amb l’etiqueta /dev/nvme0n1. L’etiqueta indica el tipus de disc (NVMe) i el número de disc (1). Es possible tenir altres etiquetes com /dev/sda per discos SATA o /dev/vda per discos virtuals.\n\n\n\nParticions: Podeu seleccionar (Tots els fitxers en una partició) per simplificar la gestió i evitar problemes podeu seleccionar aquesta opció. Aquesta opció crearà una sola partició per a tot el sistema.\n\n\n\nConfirmeu els canvis. En aquest punt, el sistema crearà les particions necessàries:\n\nLa primera partició serà la partició /boot on es guardaran els fitxers per arrancar el sistema.\nLa segona partició serà la partició / on es guardaran els fitxers del sistema.\nLa tercera partició serà la partició de swap on es guardaran les dades de la memòria virtual.\n\n\n\nℹ️ Què és la partició swap?\nLa swap és una partició especial que s’utilitza com a memòria virtual quan la memòria RAM s’omple. Aquesta partició permet alliberar memòria RAM i evitar que el sistema es bloquegi.\n\n\n\nEscriu els canvis al disc.\n\n\nEspera que s’instal·li el sistema.\n\nConfigura el gestor de paquets.\n\nAnalitzar els discos de la instal·lació. Aquest pas permet seleccionar els discos on es troben els paquets d’instal·lació. Normalment, aquest pas no cal modificar-lo.\n\n\n\nConfigura el gestor de paquets. En aquest cas, seleccionarem el servidor de paquets més proper a la nostra ubicació.\n\nFiltrar els servidors de paquets per ubicació. \nSeleccionar el servidor de paquets. \n\n\n👀 Nota:\nA vegades, els servidors de paquets poden estar saturats o no funcionar correctament. En aquest cas, podeu seleccionar un servidor alternatiu o provar més tard.\n\nConfigura el proxy. Si esteu darrere d’un proxy, podeu configurar-lo en aquest pas.\n\n\nℹ️ Què és un proxy?\nUn proxy és un servidor intermediari entre el vostre sistema i Internet. Aquest servidor pot ser utilitzat per controlar l’accés a Internet, per protegir la vostra privacitat o per accelerar la connexió a Internet. Les peticions de connexió a Internet es fan a través del servidor proxy, que actua com a intermediari i reenvia les peticions al servidor de destinació. Per exemple, en una empresa, el proxy pot ser utilitzat per controlar l’accés a Internet dels empleats i protegir la xarxa interna de possibles amenaces.\n\n\nEspera que s’instal·lin els paquets.\n\nConfigura el paquet popularity-contest.\n\nAquest paquet permet enviar informació anònima sobre els paquets instal·lats al servidor de Debian per millorar la selecció de paquets i la qualitat dels paquets. Podeu seleccionar si voleu participar en aquest programa o no.\n\n\nSelecció de programari. En aquest punt podeu seleccionar si voleu un servidor en mode text o amb interfície gràfica. També us permet seleccionar si voleu instal·lar els serveis web i ssh al servidor i finalment si voleu les utilitats estàndard del sistema. Seleccionarem el servidor en mode text, el servei SSH activat i les utilitats estàndard del sistema.\n\n\nℹ️ Què és un servidor en mode text?\nUn servidor en mode text és un servidor que no té una interfície gràfica. Això significa que tota la interacció amb el servidor es fa a través de la línia de comandes. Aquest tipus de servidor és molt comú en entorns de producció, ja que consumeix menys recursos i és més segur que un servidor amb interfície gràfica.\n\n\n\nℹ️ Què és el servei SSH?\nEl servei SSH (Secure Shell) és un protocol de xifratament que permet connectar-se de forma segura a un servidor remot. Aquest servei és molt utilitzat per administrar servidors a distància, ja que permet accedir al servidor de forma segura i xifratada.\n\nEspera que s’instal·li el programari.\n\nInstal·la el gestor d’arrancada GRUB. \nInstal·lació acabada. Un cop finalitzada la instal·lació, el sistema es reiniciarà i podreu accedir al GRUB per seleccionar el sistema operatiu. \nEl GRUB us permet accedir al sistema operatiu. En aquest cas, seleccionarem Debian GNU/Linux. La resta d’opcions les veurem més endavant en el curs.\n\n\nℹ️ Què és el GRUB?\nEl GRUB és un gestor d’arrencada que permet seleccionar el sistema operatiu que volem iniciar. Aquest gestor és molt útil en sistemes amb múltiples sistemes operatius o múltiples versions del mateix sistema operatiu.\n\nInicieu sessió amb l’usuari i la contrasenya que heu configurat durant la instal·lació.\n\n\n\n\n\n\n\nAlerta\n\n\n\nQuan escriviu la contrasenya, no es mostrarà cap caràcter a la pantalla. Això és normal en sistemes Unix/Linux per motius de seguretat. Simplement escriviu la contrasenya i premeu Enter.\n\n\nTanqueu la sessió amb la comanda exit.\nInicieu sessió amb l’usuari root i la contrasenya que heu configurat durant la instal·lació."
+  },
+  {
+    "objectID": "laboratori/lab02.html#exercicis-adicionals",
+    "href": "laboratori/lab02.html#exercicis-adicionals",
+    "title": "Laboratori 2: Instal·lació de Debian 12",
+    "section": "Exercicis adicionals",
+    "text": "Exercicis adicionals\n\nInstal·leu altres màquines virtuals amb altres sistemes operatius en mode gràfic com:\n\nUbuntu 24.04 LTS\nFedora 39"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Curs zero d’Informàtica",
+    "section": "",
+    "text": "El curs s’organitza en sessions diàries de 2 hores. L’enfoc és eminentment pràctic. En cadascuna de les sessions s’abordarà un dels temes del programa, presentant primer, i breument, els coneixements teòrics bàsics, per abordar tot seguit el plantejament i resolució de problemes a l’aula. L’estudiantat ha de portar el seu propi portàtil."
+  },
+  {
+    "objectID": "index.html#planificació",
+    "href": "index.html#planificació",
+    "title": "Curs zero d’Informàtica",
+    "section": "Planificació",
+    "text": "Planificació\n\n\n\nSessió\nData\nTema\nDiapositives\nLaboratori\n\n\n\n\n1\n04/09/2024\nIntroducció i entorns de programació\n\n\n\n\n2\n05/09/2024\nVirtualització\n📖\n📄 📄\n\n\n3\n08/09/2024\nIntroducció al control de versions"
+  },
+  {
+    "objectID": "laboratori/lab03.html",
+    "href": "laboratori/lab03.html",
+    "title": "Laboratori 3: Configurant el meu entorn de desenvolupament amb VSCode",
+    "section": "",
+    "text": "Configurar el Visual Studio Code (VSCode) per connectar-se a la màquina virtual mitjançant SSH."
+  },
+  {
+    "objectID": "laboratori/lab03.html#objectius",
+    "href": "laboratori/lab03.html#objectius",
+    "title": "Laboratori 3: Configurant el meu entorn de desenvolupament amb VSCode",
+    "section": "",
+    "text": "Configurar el Visual Studio Code (VSCode) per connectar-se a la màquina virtual mitjançant SSH."
+  },
+  {
+    "objectID": "laboratori/lab03.html#requisits-previs",
+    "href": "laboratori/lab03.html#requisits-previs",
+    "title": "Laboratori 3: Configurant el meu entorn de desenvolupament amb VSCode",
+    "section": "Requisits previs",
+    "text": "Requisits previs\n\nMàquina virtual en funcionament (vegeu Laboratori 2).\nVisual Studio Code (VSCode) instal·lat al vostre ordinador. Podeu descarregar-lo des de https://code.visualstudio.com/.\nObtenir la IP de la màquina virtual. Per fer-ho, podeu:\n\nConsultar la informació a VMWare: \nO bé, iniciar sessió a la màquina virtual i executar la comanda ip a per obtenir la IP: \n\n\n\n\n\n\n\nNota\n\n\n\nEn els dos casos, la IP de la màquina virtual és 172.16.10.223."
+  },
+  {
+    "objectID": "laboratori/lab03.html#configurant-vscode-per-connectar-se-a-la-màquina-virtual",
+    "href": "laboratori/lab03.html#configurant-vscode-per-connectar-se-a-la-màquina-virtual",
+    "title": "Laboratori 3: Configurant el meu entorn de desenvolupament amb VSCode",
+    "section": "Configurant VSCode per connectar-se a la màquina virtual",
+    "text": "Configurant VSCode per connectar-se a la màquina virtual\nUn cop hagueu instal·lat el vostre entorn de desenvolupament (IDE), podeu afegir les següents extensions utilitzant el marketplace de VSCode: remote-ssh. Primer, feu clic a Marketplace (1), després cerqueu remote-ssh i, finalment, feu clic a (3) per instal·lar la extensió. Consulteu la imatge:\n\nUn cop hagueu instal·lat la extensió, ja podeu connectar-vos a la màquina virtual. Per fer-ho, feu clic a la icona de la part inferior esquerra (1) i seleccioneu l’opció Remote-SSH: Connect to Host… (2). Consulteu la imatge:\n\nAra apareixerà una finestra on podreu escriure la connexió SSH. També veureu l’opció Add a New SSH Host. Feu clic en aquesta opció i introduïu la comanda SSH per connectar-vos a la màquina virtual. Consulteu la imatge:\n\nSeleccioneu la primera opció del menú desplegable amb la ruta del vostre usuari i feu clic a Add. Consulteu la imatge:\n\ni comproveu que l’amfitrió s’ha afegit correctament.\n\nAra feu clic a Open Config i observeu que s’ha creat una nova entrada amb el vostre usuari i la IP de la màquina virtual:\nHost 172.16.10.223\n  HostName 172.16.10.223\n  User jordi\nUs recomano que modifiqueu el fitxer de configuració perquè sigui més fàcil de recordar. Per exemple, podeu canviar el nom de l’amfitrió per vm-curs0-debian12 :\nHost vm-curs0-debian12\n  HostName 172.16.10.202\n  User jordi\nUn cop hagueu modificat el fitxer de configuració, guardem-lo i tanquem-lo. Ara ja podeu connectar-vos a la màquina virtual vm-curs0-debian12. Per fer-ho:\n\nFeu clic a la icona de la part inferior esquerra.\nSeleccioneu Remote-SSH: Connect to Host….\nSeleccioneu vm-curs0-debian12:\n\n\nUs apareixerà una finestra emergent que us demanarà si voleu confiar en l’amfitrió. Feu clic a Continue. \nUs apareixerà una altra finestra emergent que us demanarà la contrasenya de l’usuari jordi. \n\n\n\n\n\n\n\nNota\n\n\n\nLa primera vegada que us connecteu a la màquina virtual, VSCode instal·larà el servidor remot a la màquina virtual. Això pot trigar uns minuts.\n\n\nUn cop us hàgiu connectat, veureu que la finestra de VSCode ha canviat i que ara esteu treballant a la màquina virtual. Podeu comprovar-ho a la part inferior esquerra on apareix el nom de l’amfitrió vm-curs0-debian12.\n\nPer comprovar que tot funciona correctament, podeu obrir una terminal integrada a VSCode i executar la comanda uname -a per veure la informació del sistema i comprovar que esteu a la màquina virtual."
+  },
+  {
+    "objectID": "laboratori/lab03.html#exercicis",
+    "href": "laboratori/lab03.html#exercicis",
+    "title": "Laboratori 3: Configurant el meu entorn de desenvolupament amb VSCode",
+    "section": "Exercicis",
+    "text": "Exercicis\n\nCreeu carpetes i fitxers a la màquina virtual utilitzant la terminal integrada de VSCode.\nEditeu fitxers utilitzant l’editor de VSCode.\nPodeu pujar i baixar fitxers entre la màquina local i la màquina virtual utilitzant drag and drop."
+  }
+]
