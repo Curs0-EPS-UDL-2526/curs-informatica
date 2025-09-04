@@ -8,8 +8,17 @@ website:
     left:
       - href: index.qmd
         text: Home
-  
-
+      - text: Teoria
+        menu:
+          - href: teoria/02-virtualitzation.qmd
+            text: Sessió 2 · Virtualització
+      - text: Laboratori
+        menu:
+          - href: laboratori/lab02.qmd
+            text: Instal·lació de Debian 12
+          - href: laboratori/lab03.qmd
+            text: Configurant el meu entorn de desenvolupament amb VSCode
+        
 format:
   html:
     theme:
