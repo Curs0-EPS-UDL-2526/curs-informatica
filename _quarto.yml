@@ -12,12 +12,18 @@ website:
         menu:
           - href: teoria/02-virtualitzation.qmd
             text: Sessió 2 · Virtualització
+          - href: teoria/03-version-control.qmd
+            text: Sessió 3 · Control de versions
       - text: Laboratori
         menu:
           - href: laboratori/lab02.qmd
             text: Instal·lació de Debian 12
           - href: laboratori/lab03.qmd
             text: Configurant el meu entorn de desenvolupament amb VSCode
+          - href: laboratori/lab04.qmd
+            text: Introducció a Git
+          - href: laboratori/lab05.qmd
+            text: Calculadora col·laborativa
         
 format:
   html:
