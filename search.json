@@ -4,7 +4,7 @@
     "href": "teoria/02-virtualitzation.html#una-analogia-amb-el-bus-escolar",
     "title": "Virtualització",
     "section": "🚗 Una analogia amb el bus escolar",
-    "text": "🚗 Una analogia amb el bus escolar\nImagineu un món abans sense bus escolar:\n\nPer portar cada estudiant (una aplicació o servei) a l’escola, cada família utilitza el seu propi cotxe (un servidor físic).\nCada cotxe malgasta molts recursos: un motor (processador), benzina (energia), rodes (disc dur) i un espai d’aparcament (espai físic), tot per a un sol passatger.\n\n\nAixò és extremadament ineficient."
+    "text": "🚗 Una analogia amb el bus escolar\nImagineu un món sense bus escolar:\n\nPer portar cada estudiant (una aplicació o servei) a l’escola, cada família utilitza el seu propi cotxe (un servidor físic).\nCada cotxe malgasta molts recursos: un motor (processador), benzina (energia), rodes (disc dur) i un espai d’aparcament (espai físic), tot per a un sol passatger.\n\n\nAixò és extremadament ineficient."
   },
   {
     "objectID": "teoria/02-virtualitzation.html#larribada-del-bus-escolar-la-virtualització",
@@ -42,6 +42,13 @@
     "text": "Esquema amb virtualització"
   },
   {
+    "objectID": "teoria/02-virtualitzation.html#laboratori-2-objectiu",
+    "href": "teoria/02-virtualitzation.html#laboratori-2-objectiu",
+    "title": "Virtualització",
+    "section": "Laboratori 2: Objectiu",
+    "text": "Laboratori 2: Objectiu\n\nUna màquina virtual amb Debian 12 comparint recursos amb el vostre ordinador físic."
+  },
+  {
     "objectID": "teoria/02-virtualitzation.html#laboratori-2-tasques",
     "href": "teoria/02-virtualitzation.html#laboratori-2-tasques",
     "title": "Virtualització",
@@ -49,11 +56,18 @@
     "text": "Laboratori 2: Tasques\n\nInstal·lar un hypervisor: VMWare Workstation Player o VMWare Fusion.\nDesplegar una màquina virtual amb Linux dins de l’hypervisor.\n\n\n📄 Laboratori 2: Instal·lació de Debian 12"
   },
   {
-    "objectID": "teoria/02-virtualitzation.html#laboratori-2-resultats",
-    "href": "teoria/02-virtualitzation.html#laboratori-2-resultats",
+    "objectID": "teoria/02-virtualitzation.html#laboratori-3-objectiu",
+    "href": "teoria/02-virtualitzation.html#laboratori-3-objectiu",
     "title": "Virtualització",
-    "section": "Laboratori 2: Resultats",
-    "text": "Laboratori 2: Resultats\n\nUna màquina virtual amb Debian 12 comparint recursos amb el vostre ordinador físic."
+    "section": "Laboratori 3: Objectiu",
+    "text": "Laboratori 3: Objectiu\n\nConnectar VSCode que s’executa a la màquina real per executar i comunicar-se amb la màquina virtual via SSH."
+  },
+  {
+    "objectID": "teoria/02-virtualitzation.html#laboratori-3-tasques",
+    "href": "teoria/02-virtualitzation.html#laboratori-3-tasques",
+    "title": "Virtualització",
+    "section": "Laboratori 3: Tasques",
+    "text": "Laboratori 3: Tasques\n\nConfigurar VSCode per connectar-se a la màquina virtual via SSH.\nProvar la connexió i executar ordres a la màquina virtual des de VSCode\n\n\n📄 Laboratori 3: Connexió via SSH"
   },
   {
     "objectID": "laboratori/lab03.html",
