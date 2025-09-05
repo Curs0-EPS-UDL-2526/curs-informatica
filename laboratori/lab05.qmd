@@ -68,7 +68,7 @@ lang: "ca"
 
 ### Preparació del projecte
 
-Enllaç de la tasca a GitHub Classroom: [https://classroom.github.com/a/YXJZBzDs](https://classroom.github.com/a/YXJZBzDs)
+Enllaç de la tasca a GitHub Classroom: [https://classroom.github.com/a/HZQmHzs-](https://classroom.github.com/a/HZQmHzs-))
 
 1. El líder de l'equip haurà d’iniciar el grup a través de GitHub Classroom.
 
@@ -84,7 +84,7 @@ Enllaç de la tasca a GitHub Classroom: [https://classroom.github.com/a/YXJZBzDs
 
         ![Repositori creat](../figures/projecte/repo-created.png)
 
-2. La resta de membres s’hi podran unir seleccionant el nom de l’equip al mateix enllaç [https://classroom.github.com/a/YXJZBzDs](https://classroom.github.com/a/YXJZBzDs).
+2. La resta de membres s’hi podran unir seleccionant el nom de l’equip al mateix enllaç [https://classroom.github.com/a/HZQmHzs-](https://classroom.github.com/a/HZQmHzs-).
 
 3. El repositori base contindrà el codi inicial necessari i la seva estructura.
 
