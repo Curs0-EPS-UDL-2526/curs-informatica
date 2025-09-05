@@ -29,7 +29,7 @@ Aquestes instruccions et guiaran a través del procés per crear un compte a Bro
 2. Accedeix a les descàrregues gratuïtes de VMware:
     - Ves a la pàgina de login de Broadcom: [https://profile.broadcom.com/web/login](https://profile.broadcom.com/web/login)
     - Inicia sessió amb el teu correu electrònic i la contrasenya que has creat.
-    - Ves directament a la secció de descàrregues a [(https://support.broadcom.com/group/ecx/free-downloads)]((https://support.broadcom.com/group/ecx/free-downloads)).
+    - Ves directament a la secció de descàrregues a [(https://support.broadcom.com/group/ecx/free-downloads)](https://support.broadcom.com/group/ecx/free-downloads).
         ![](../figures/vmware/broadcom-downloads.png)
     - Selecciona VMware Workstation Player o VMware Fusion segons el teu sistema operatiu (Windows o macOS). En el meu cas, utiltizo Mac, així que seleccionaré **VMware Fusion**.
     - Seleccioneu la versió que voleu descarregar. En aquest cas, podem seleccionar la versió més recent.
