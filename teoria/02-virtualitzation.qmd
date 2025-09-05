@@ -24,7 +24,7 @@ execute:
 
 ## 🚗 Una analogia amb el bus escolar
 
-Imagineu un món abans sense bus escolar:
+Imagineu un món sense bus escolar:
 
 -   Per portar cada **estudiant** (*una aplicació o servei*) a l'escola, cada família utilitza el seu propi cotxe (*un servidor físic*).
 
@@ -62,7 +62,13 @@ Imagineu un autobús futurista:
 
 ## Esquema amb virtualització
 
-![](../figures/virtualitaztion/amb.png)
+![](../figures/virtualitaztion/amb.png){style="display: block; margin-left: auto; margin-right: auto;"}
+
+## Laboratori 2: Objectiu
+
+![](../figures/virtualitaztion/resultat.png){style="display: block; margin-left: auto; margin-right: auto;"}
+
+Una màquina virtual amb Debian 12 comparint recursos amb el vostre ordinador físic.
 
 ## Laboratori 2: Tasques
 
@@ -73,8 +79,18 @@ Imagineu un autobús futurista:
 [📄 Laboratori 2: Instal·lació de Debian 12](../laboratori/lab02.html#prepare)
 :::
 
-## Laboratori 2: Resultats
+## Laboratori 3: Objectiu
 
-![](../figures/virtualitaztion/resultat.png){style="display: block; margin-left: auto; margin-right: auto;"}
+![](../figures/virtualitaztion/lab03-ssh.png){style="display: block; margin-left: auto; margin-right: auto;"}
 
-Una màquina virtual amb Debian 12 comparint recursos amb el vostre ordinador físic.
+Connectar VSCode que s'executa a la màquina real per executar i comunicar-se amb la màquina virtual via SSH.
+
+## Laboratori 3: Tasques
+
+- Configurar VSCode per connectar-se a la màquina virtual via SSH.
+- Provar la connexió i executar ordres a la màquina virtual des de VSCode
+
+::: {.fragment style="text-align: center;"}
+[📄 Laboratori 3: Connexió via SSH](../laboratori/lab03.html#prepare)
+:::
+
