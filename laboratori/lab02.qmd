@@ -5,12 +5,12 @@ lang: "ca"
 
 ## Objectius
 
-- Instal·lar el programari de virtualització VMWare Workstation Player o VMWare Fusion.
+- Instal·lar el programari de virtualització VMWare Workstation Pro o VMWare Fusion.
 - Instal·lar una màquina virtual basada en un sistema operatiu Linux.
 
-## Instal·lació del Hypervisor (VMWare Workstation Player o VMWare Fusion)
+## Instal·lació del Hypervisor (VMWare Workstation Pro o VMWare Fusion)
 
-Aquestes instruccions et guiaran a través del procés per crear un compte a Broadcom i descarregar una de les versions gratuïtes de VMware Workstation Player (per a Windows) o VMware Fusion (per a macOS).
+Aquestes instruccions et guiaran a través del procés per crear un compte a Broadcom i descarregar una de les versions gratuïtes de VMware Workstation Pro (per a Windows) o VMware Fusion (per a macOS).
 
 1. Registra't per a un compte gratuït a Broadcom: Per accedir a les descàrregues de programari de VMware, necessites un compte a la plataforma de Broadcom.
    - Dirigeix-te a la pàgina de registre de Broadcom: [https://profile.broadcom.com/web/registration](https://profile.broadcom.com/web/registration)
@@ -31,7 +31,7 @@ Aquestes instruccions et guiaran a través del procés per crear un compte a Bro
     - Inicia sessió amb el teu correu electrònic i la contrasenya que has creat.
     - Ves directament a la secció de descàrregues a [(https://support.broadcom.com/group/ecx/free-downloads)](https://support.broadcom.com/group/ecx/free-downloads).
         ![](../figures/vmware/broadcom-downloads.png)
-    - Selecciona VMware Workstation Player o VMware Fusion segons el teu sistema operatiu (Windows o macOS). En el meu cas, utiltizo Mac, així que seleccionaré **VMware Fusion**.
+    - Selecciona VMware Workstation Pro o VMware Fusion segons el teu sistema operatiu (Windows o macOS). En el meu cas, utiltizo Mac, així que seleccionaré **VMware Fusion**.
     - Seleccioneu la versió que voleu descarregar. En aquest cas, podem seleccionar la versió més recent.
         ![](../figures/vmware/broadcom-vmware-fusion-version.png)
 
@@ -41,7 +41,7 @@ Aquestes instruccions et guiaran a través del procés per crear un compte a Bro
       3. Fes clic a descàrrega per començar a descarregar el fitxer d'instal·lació.
         ![](../figures/vmware/broadcom-vmware-fusion-download.png)
 
-3. Instal·la VMware Workstation Player o VMware Fusion.
+3. Instal·la VMware Workstation Pro o VMware Fusion.
 
 ## Descarrega de la imatge ISO de Debian 12.5.0
 
@@ -56,7 +56,7 @@ Aquestes instruccions et guiaran a través del procés per crear un compte a Bro
 
 ## Configuració de la màquina virtual amb VMWare
 
-1. Selecciona l’opció `Create a New Virtual Machine` a VMWare Workstation Player o VMWare Fusion.
+1. Selecciona l’opció `Create a New Virtual Machine` a VMWare Workstation Pro o VMWare Fusion.
 2. Selecciona *Install from disc or image*.
     ![Install from disc or image](../figures/debian12/install-01.png)
 3. Selecciona la imatge ISO de Debian 12.
