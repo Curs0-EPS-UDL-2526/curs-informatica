@@ -8,12 +8,12 @@ lang: "ca"
 - Replicar l'exemple de les diapositives utilitzant Visual Studio Code (VSCode) i Git.
 
 ## Requisits previs
-- Màquina virtual en funcionament (vegeu [Laboratori 2](lab02.md)).
-- Visual Studio Code (VSCode) connectat a la màquina virtual mitjançant SSH (vegeu [Laboratori 3](lab03.md)).
+- Màquina virtual en funcionament (vegeu [Laboratori 2](./lab02.html)).
+- Visual Studio Code (VSCode) connectat a la màquina virtual mitjançant SSH (vegeu [Laboratori 3](./lab03.html)).
 
 ## Instal·lació de Git a la màquina virtual
 
-1. Connecteu VSCode a la màquina virtual mitjançant SSH (vegeu [Laboratori 3](lab03.md)).
+1. Connecteu VSCode a la màquina virtual mitjançant SSH (vegeu [Laboratori 3](./lab03.html)).
 
 2. Inicia la sessió de l'usuari **root** amb la comanda:
 
