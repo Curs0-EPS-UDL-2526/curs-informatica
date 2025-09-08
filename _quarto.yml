@@ -24,6 +24,8 @@ website:
             text: Introducció a Git
           - href: laboratori/lab05.qmd
             text: Calculadora col·laborativa
+          - href: laboratori/lab06.qmd
+            text: Github Pages
         
 format:
   html:

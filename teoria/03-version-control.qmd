@@ -95,3 +95,25 @@ En la vostra vida professional, és molt probable que treballeu en equips on div
 ::: {.fragment style="text-align: center;"}
 [📄 Laboratori 5: Calculadora col·laborativa](../laboratori/lab05.html#prepare )
 :::
+
+## Forks 🍴
+
+Un **fork** és una còpia d'un repositori públic que un altre usuari ha creat. 
+
+- És una manera de contribuir a projectes d'altres persones sense afectar l'original. 
+- Quan fas un *fork*, crees una còpia independent del repositori original al teu compte. 
+- Aquesta còpia és totalment teva i pots fer-hi canvis lliurement respectant sempre la llicència del projecte original.
+
+## Clone 📋 vs Fork 🍴
+
+![](/figures/git/fork-clone.png){style="display: block; margin-left: auto; margin-right: auto;"}
+
+## Laboratori 6: Objectiu
+
+- Crear un lloc web personal utilitzant Jekyll i GitHub Pages.
+- Realitzar un *fork* d'una plantilla de lloc web i personalitzar-la.
+- Desplegar el lloc web al vostre compte de GitHub.
+
+::: {.fragment style="text-align: center;"}
+[📄 Laboratori 6: GitHub Pages](../laboratori/lab06.html#prepare)
+:::
