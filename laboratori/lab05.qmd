@@ -123,6 +123,12 @@ Enllaç de la tasca a GitHub Classroom: [https://classroom.github.com/a/HZQmHzs-
 
 ### Treball individual
 
+Instal·la el paquet build-essential, que inclou les eines i llibreries necessàries per compilar i construir programes en C. Aquest paquet inclou el compilador GCC, que és comunament utilitzat per programar en C.
+
+    ```sh
+    apt install build-essential -y
+    ```
+
 1. Cada membre de l'equip haurà de clonar el repositori al seu ordinador i crear una branca `develop` per les seves tasques.
 
     ```sh
